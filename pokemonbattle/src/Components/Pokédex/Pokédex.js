@@ -1,13 +1,12 @@
-import React, { Component} from 'react'
-import RowOutput from "./PokédexRow"
-import K from ".../"
-class Pokédex extends Component{
+import React from 'react'
+
+export default class Pokédex extends React.Component{
 
     constructor(props){
         super(props);
-        this.getHeader = this.getHeader;
-        this.getValues = this.getValues;
-        this.getKeys = this.getKeys;
+        this.getHeader = this.getHeader.bind(this);
+        this.getValues = this.getValues.bind(this);
+        this.getKeys = this.getKeys.bind(this);
         }
 
 
@@ -48,7 +47,7 @@ class Pokédex extends Component{
 
         <tbody>
 
-        {this.getRowsData()}
+        {this.getValues()}
 
         </tbody>
 
@@ -59,5 +58,14 @@ class Pokédex extends Component{
         );
         }
        }
+    
 
-export default Pokédex;
+       const RowOutput = (props) => {
+
+        return props.keys.map((key, index) => {
+    
+        return <td key={props.data[key]}>{props.data[key]} </td>
+    
+        })
+    
+       }

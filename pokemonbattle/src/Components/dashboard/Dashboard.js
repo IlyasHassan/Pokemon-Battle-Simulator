@@ -20,7 +20,7 @@ class Dashboard extends Component{
                     </Col>
                     <Col>
 
-                    <Link to="/Pokédex" className="btn btn-primary" id="dashboardbtn">Pokédex</Link>  
+                    <Link to="/PokédexOutput" className="btn btn-primary" id="dashboardbtn">Pokédex</Link>  
 
                     </Col>
                     <Col>

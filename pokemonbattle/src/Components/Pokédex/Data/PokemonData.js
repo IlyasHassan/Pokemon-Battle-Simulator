@@ -1,9 +1,9 @@
 
-[
+export const pokemon1 = [
 {
     "#":"1", 
     "Name":"Pikachu", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Electric", 
     "Health":"30", 
     "Attack":"30", 
@@ -14,7 +14,7 @@
 {
     "#":"2", 
     "Name":"Charizard", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Fire", 
     "Health":"30", 
     "Attack":"30", 
@@ -25,7 +25,7 @@
 {
     "#":"3", 
     "Name":"Onix", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Rock", 
     "Health":"30", 
     "Attack":"30", 
@@ -36,7 +36,7 @@
 {
     "#":"4", 
     "Name":"Mewtwo", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Psychic", 
     "Health":"30", 
     "Attack":"30", 
@@ -47,7 +47,7 @@
 {
     "#":"5", 
     "Name":"Eevee", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Normal", 
     "Health":"30", 
     "Attack":"30", 
@@ -58,7 +58,7 @@
 {
     "#":"6", 
     "Name":"Gengar", 
-    "Picture":null,
+    "Picture":"null",
     "Type":"Ghost", 
     "Health":"30", 
     "Attack":"30", 
@@ -66,3 +66,5 @@
 }
 
 ]
+
+export default pokemon1;
