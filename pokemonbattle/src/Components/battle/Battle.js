@@ -1,11 +1,13 @@
 import React, { Component} from 'react'
 
 
-class Dashboard extends Component{
+class Battle extends Component{
 
         render(){
 
-        return
+            return(
+                <p>tt </p>
+            )
         
         
 
@@ -13,4 +15,4 @@ class Dashboard extends Component{
 }
 }
 
-export default Dashboard;
+export default Battle;

@@ -5,7 +5,8 @@ import React, {Component} from 'react'
 import Navbar from "./Components/layout/Navbar"
 import Dashboard from "./Components/dashboard/Dashboard"
 import Battle from "./Components/battle/Battle"
-import Pokedex from "./Components/dashboard/Pokédex/Pokédex"
+import Pokédex from "./Components/dashboard/Pokédex/Pokédex"
+import FAQ from "./Components/FAQ/FAQ"
 class App extends Component {
   render(){
   return (
@@ -14,9 +15,10 @@ class App extends Component {
       <Navbar />
 
       <Switch>
-        <Route path="/" component={Dashboard}/>
+        <Route exact path="/" component={Dashboard}/>
         <Route path="/Battle" component={Battle}/>
-        <Route path="/Pokedex" component={Pokedex}/>
+        <Route path="/Pokédex" component={Pokédex}/>
+        <Route path="/FAQ" component={FAQ}/>
       </Switch>
     </div>
     </BrowserRouter>

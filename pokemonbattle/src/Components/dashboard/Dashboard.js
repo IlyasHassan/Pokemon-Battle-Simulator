@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom'
-import {ButtonGroup } from 'reactstrap';
 
 class Dashboard extends Component{
 
@@ -16,19 +15,18 @@ class Dashboard extends Component{
             <Container className="horiAllignCont">
                 <Row>
                     <Col>
-                    <ButtonGroup className="d-flex">
-                    <Link to="/" className="btn btn-primary" id="dashboardbtn" >Battle</Link>  
-                    </ButtonGroup>
+                    <Link to="/Battle" className="btn btn-primary" id="dashboardbtn" >Battle</Link>  
+
                     </Col>
                     <Col>
-                    <ButtonGroup className="d-flex">
-                    <Link to="/" className="btn btn-primary" id="dashboardbtn">Pokedex</Link>  
-                    </ButtonGroup>
+
+                    <Link to="/Pokédex" className="btn btn-primary" id="dashboardbtn">Pokédex</Link>  
+
                     </Col>
                     <Col>
-                    <ButtonGroup className="d-flex">
-                    <Link to="/" className="btn btn-primary" id="dashboardbtn">FAQ</Link>  
-                    </ButtonGroup>
+
+                    <Link to="/FAQ" className="btn btn-primary" id="dashboardbtn">FAQ</Link>  
+
                     </Col>
                 </Row>
   
