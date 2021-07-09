@@ -1,14 +1,16 @@
 import Pokédex from "./Pokédex"
 import React from 'react'
+import PikachuImage from "../PokemonPictures/Pikachu.png"
+import { Text, Container, Image } from "atomize";
 
-export default class PokédexOutput extends React.Component{
+class PokédexOutput extends React.Component{
     constructor(props){
         super(props);
         this.state={
           data:[
             {   "#":"1", 
                 "Name":"Pikachu", 
-                "Picture":"null",
+                "Picture": "null1",
                 "Type":"Electric", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -19,7 +21,7 @@ export default class PokédexOutput extends React.Component{
             {
                 "#":"2", 
                 "Name":"Charizard", 
-                "Picture":"null",
+                "Picture":"null2",
                 "Type":"Fire", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -30,7 +32,7 @@ export default class PokédexOutput extends React.Component{
             {
                 "#":"3", 
                 "Name":"Onix", 
-                "Picture":"null",
+                "Picture":"null3",
                 "Type":"Rock", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -41,7 +43,7 @@ export default class PokédexOutput extends React.Component{
             {
                 "#":"4", 
                 "Name":"Mewtwo", 
-                "Picture":"null",
+                "Picture":"null4",
                 "Type":"Psychic", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -52,7 +54,7 @@ export default class PokédexOutput extends React.Component{
             {
                 "#":"5", 
                 "Name":"Eevee", 
-                "Picture":"null",
+                "Picture":"null5",
                 "Type":"Normal", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -63,7 +65,7 @@ export default class PokédexOutput extends React.Component{
             {
                 "#":"6", 
                 "Name":"Gengar", 
-                "Picture":"null",
+                "Picture":"null6",
                 "Type":"Ghost", 
                 "Health":"30", 
                 "Attack":"30", 
@@ -80,7 +82,7 @@ render(){
     return(
 
 <div className="App">
-    <h1 style={{'text-allign':'center'}}>Pokédex</h1>
+    <h1 id="pokedexTitle">Pokédex</h1>
     <br/>
     <Pokédex data={this.state.data}/>
     </div>
@@ -89,5 +91,5 @@ render(){
 }
 }
 
-
+export default PokédexOutput;
 
