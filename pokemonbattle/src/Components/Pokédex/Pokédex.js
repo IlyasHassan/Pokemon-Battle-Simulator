@@ -80,7 +80,7 @@ class Pokédex extends React.Component{
                 }
 
                 else if(props.data[key] == "null2"){
-                    return <td><img src={picturesArray[1]} /> </td>
+                    return <td><img src={picturesArray[4]} /> </td>
                 }
 
                 else if(props.data[key] == "null3"){
@@ -92,7 +92,7 @@ class Pokédex extends React.Component{
                 }
 
                 else if(props.data[key] == "null5"){
-                    return <td><img src={picturesArray[4]} /> </td>
+                    return <td><img src={picturesArray[1]} /> </td>
                 }
 
                 else if(props.data[key] == "null6"){
