@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Pokemon-Battle-Simulator/static/css/main.5c739a7a.chunk.css",
+    "main.js": "/Pokemon-Battle-Simulator/static/js/main.d0d6b6ac.chunk.js",
+    "main.js.map": "/Pokemon-Battle-Simulator/static/js/main.d0d6b6ac.chunk.js.map",
+    "runtime-main.js": "/Pokemon-Battle-Simulator/static/js/runtime-main.b6c89f62.js",
+    "runtime-main.js.map": "/Pokemon-Battle-Simulator/static/js/runtime-main.b6c89f62.js.map",
+    "static/js/2.f69743d2.chunk.js": "/Pokemon-Battle-Simulator/static/js/2.f69743d2.chunk.js",
+    "static/js/2.f69743d2.chunk.js.map": "/Pokemon-Battle-Simulator/static/js/2.f69743d2.chunk.js.map",
+    "static/js/3.261c93a8.chunk.js": "/Pokemon-Battle-Simulator/static/js/3.261c93a8.chunk.js",
+    "static/js/3.261c93a8.chunk.js.map": "/Pokemon-Battle-Simulator/static/js/3.261c93a8.chunk.js.map",
+    "index.html": "/Pokemon-Battle-Simulator/index.html",
+    "static/css/main.5c739a7a.chunk.css.map": "/Pokemon-Battle-Simulator/static/css/main.5c739a7a.chunk.css.map",
+    "static/js/2.f69743d2.chunk.js.LICENSE.txt": "/Pokemon-Battle-Simulator/static/js/2.f69743d2.chunk.js.LICENSE.txt",
+    "static/media/CharizardLarge.7afa7f1c.jpg": "/Pokemon-Battle-Simulator/static/media/CharizardLarge.7afa7f1c.jpg",
+    "static/media/EeveeLarge.0e62e8e5.jpg": "/Pokemon-Battle-Simulator/static/media/EeveeLarge.0e62e8e5.jpg",
+    "static/media/GengarLarge.f00c0a14.jpg": "/Pokemon-Battle-Simulator/static/media/GengarLarge.f00c0a14.jpg",
+    "static/media/MewtwoLarge.542aa56c.jpg": "/Pokemon-Battle-Simulator/static/media/MewtwoLarge.542aa56c.jpg",
+    "static/media/OnixLarge.cff6f0ac.jpg": "/Pokemon-Battle-Simulator/static/media/OnixLarge.cff6f0ac.jpg",
+    "static/media/PikachuLarge.af952e21.jpg": "/Pokemon-Battle-Simulator/static/media/PikachuLarge.af952e21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6c89f62.js",
+    "static/js/2.f69743d2.chunk.js",
+    "static/css/main.5c739a7a.chunk.css",
+    "static/js/main.d0d6b6ac.chunk.js"
+  ]
+}
