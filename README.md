@@ -1,6 +1,8 @@
 # Pokemon-Battle-Simulator
 A complex pokemon battle simulator made using React Js, JSX and CSS.
-Currently in developnment
+Currently working on coding the battle sequence
+
+Site is hosted: https://ilyashassan.github.io/Pokemon-Battle-Simulator/
 
 Main Features:
 - Have an interactive Pokemon battle with a CPU (React Js)
